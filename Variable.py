@@ -1,11 +1,17 @@
-#Camel case(Fist letter is Lower case)
-myVariableName = "ashraful"
-print(myVariableName)
+#Multiple variables and Value in 1 line
+x, y, z = "Apple", "Mango", "Banana"
+print(x)
+print(y)
+print(z)
 
-#Pascal case(Fist letter is Uppercase)
-MyVariableName = "ashraful"
-print(MyVariableName)
+#Same Value to Multiple Variable in 1 line
+a = b = c = "Akif"
+print(a)
+print(b)
+print(c)
 
-#Snake case(Each word is separated by an underscore character)
-my_variable_name = "akif"
-print(my_variable_name)
+#Unpack Collection from Value list
+Program = ["Java", "Python", "c++"]
+a1, b1, c1 = Program
+print(b1)
+print(c1)
