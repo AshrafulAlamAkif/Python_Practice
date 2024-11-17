@@ -1,5 +1,6 @@
 import random
 
+#get a random number 5 to 15
 print(random.randrange(5, 15)) 
 
 list = ["a","b","c","d","e","f","d","g","h"]
